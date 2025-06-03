@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "discount_banners",
+  "info": {
+    "singularName": "discount-banner",
+    "pluralName": "discount-banners",
+    "displayName": "DiscountBanner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}
